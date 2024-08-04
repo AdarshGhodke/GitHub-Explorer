@@ -1,0 +1,23 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-card-image .card.image-full:before {
+  border-radius: 0.5rem;
+  opacity: 0.45;
+}
+
+.custom-font-color {
+  color:aliceblue;
+}
+
+.custom-dot {
+  height: 8px;
+  width: 8px;
+  background-color: gray;
+  border-radius: 70%;
+  display: inline-block;
+  margin-right: 5px; /* Adjust spacing as needed */
+}
+
